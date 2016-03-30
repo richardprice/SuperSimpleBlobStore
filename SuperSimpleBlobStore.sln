@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{4CD6BD61-1DB1-4C6E-885F-16BD17E0F98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.Api.ViewModel", "SuperSimpleBlobStore.Api.ViewModel\SuperSimpleBlobStore.Api.ViewModel.csproj", "{D322DA9E-13A5-40D2-8218-FFE17AF0F983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{7AC8CBE1-6F04-4E3F-A486-041FDAC11073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.Domain", "SuperSimpleBlobStore.Domain\SuperSimpleBlobStore.Domain.csproj", "{F0A71EF5-5ACF-4709-AE6F-E13657EB0EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.Api", "SuperSimpleBlobStore.Api\SuperSimpleBlobStore.Api.csproj", "{BD64F95B-BB1E-494C-A517-03DB14A836F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data Access", "3 - Data Access", "{FCE3A528-EE7F-4849-AA81-3D770ECC0AD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Common", "4 - Common", "{85A102BB-06FA-475B-BAE9-F742EACC4333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.Common", "SuperSimpleBlobStore.Common\SuperSimpleBlobStore.Common.csproj", "{441AFDB4-4F0D-4C98-8D02-C8C060BAF721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.DataAccess", "SuperSimpleBlobStore.DataAccess\SuperSimpleBlobStore.DataAccess.csproj", "{9D1E30DB-576D-4D4C-BE3B-4F2A87276AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.DataAccess.Tests", "SuperSimpleBlobStore.DataAccess.Tests\SuperSimpleBlobStore.DataAccess.Tests.csproj", "{C1A7E4D0-FABA-4EC4-9FD3-1275C56D75DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.Domain.Tests", "SuperSimpleBlobStore.Domain.Tests\SuperSimpleBlobStore.Domain.Tests.csproj", "{377AB71F-34F6-45A0-8C2B-0FA662AFADA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.Api.Tests", "SuperSimpleBlobStore.Api.Tests\SuperSimpleBlobStore.Api.Tests.csproj", "{979669B7-D9F1-4C3A-8D6D-3BFC1A241313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Client", "5 - Client", "{432E56AA-7760-496F-83CA-BCF84C16131E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleBlobStore.Client", "SuperSimpleBlobStore.Client\SuperSimpleBlobStore.Client.csproj", "{776C547B-38BA-44EB-A3DF-D85DB2ED5C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D322DA9E-13A5-40D2-8218-FFE17AF0F983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D322DA9E-13A5-40D2-8218-FFE17AF0F983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D322DA9E-13A5-40D2-8218-FFE17AF0F983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D322DA9E-13A5-40D2-8218-FFE17AF0F983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A71EF5-5ACF-4709-AE6F-E13657EB0EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A71EF5-5ACF-4709-AE6F-E13657EB0EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A71EF5-5ACF-4709-AE6F-E13657EB0EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A71EF5-5ACF-4709-AE6F-E13657EB0EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD64F95B-BB1E-494C-A517-03DB14A836F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD64F95B-BB1E-494C-A517-03DB14A836F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD64F95B-BB1E-494C-A517-03DB14A836F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD64F95B-BB1E-494C-A517-03DB14A836F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441AFDB4-4F0D-4C98-8D02-C8C060BAF721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441AFDB4-4F0D-4C98-8D02-C8C060BAF721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441AFDB4-4F0D-4C98-8D02-C8C060BAF721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441AFDB4-4F0D-4C98-8D02-C8C060BAF721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1E30DB-576D-4D4C-BE3B-4F2A87276AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1E30DB-576D-4D4C-BE3B-4F2A87276AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1E30DB-576D-4D4C-BE3B-4F2A87276AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1E30DB-576D-4D4C-BE3B-4F2A87276AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A7E4D0-FABA-4EC4-9FD3-1275C56D75DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A7E4D0-FABA-4EC4-9FD3-1275C56D75DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A7E4D0-FABA-4EC4-9FD3-1275C56D75DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A7E4D0-FABA-4EC4-9FD3-1275C56D75DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377AB71F-34F6-45A0-8C2B-0FA662AFADA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377AB71F-34F6-45A0-8C2B-0FA662AFADA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377AB71F-34F6-45A0-8C2B-0FA662AFADA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377AB71F-34F6-45A0-8C2B-0FA662AFADA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979669B7-D9F1-4C3A-8D6D-3BFC1A241313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979669B7-D9F1-4C3A-8D6D-3BFC1A241313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979669B7-D9F1-4C3A-8D6D-3BFC1A241313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979669B7-D9F1-4C3A-8D6D-3BFC1A241313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776C547B-38BA-44EB-A3DF-D85DB2ED5C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776C547B-38BA-44EB-A3DF-D85DB2ED5C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776C547B-38BA-44EB-A3DF-D85DB2ED5C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776C547B-38BA-44EB-A3DF-D85DB2ED5C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D322DA9E-13A5-40D2-8218-FFE17AF0F983} = {4CD6BD61-1DB1-4C6E-885F-16BD17E0F98D}
+		{F0A71EF5-5ACF-4709-AE6F-E13657EB0EF5} = {7AC8CBE1-6F04-4E3F-A486-041FDAC11073}
+		{BD64F95B-BB1E-494C-A517-03DB14A836F9} = {4CD6BD61-1DB1-4C6E-885F-16BD17E0F98D}
+		{441AFDB4-4F0D-4C98-8D02-C8C060BAF721} = {85A102BB-06FA-475B-BAE9-F742EACC4333}
+		{9D1E30DB-576D-4D4C-BE3B-4F2A87276AF6} = {FCE3A528-EE7F-4849-AA81-3D770ECC0AD9}
+		{C1A7E4D0-FABA-4EC4-9FD3-1275C56D75DF} = {FCE3A528-EE7F-4849-AA81-3D770ECC0AD9}
+		{377AB71F-34F6-45A0-8C2B-0FA662AFADA4} = {7AC8CBE1-6F04-4E3F-A486-041FDAC11073}
+		{979669B7-D9F1-4C3A-8D6D-3BFC1A241313} = {4CD6BD61-1DB1-4C6E-885F-16BD17E0F98D}
+		{776C547B-38BA-44EB-A3DF-D85DB2ED5C90} = {432E56AA-7760-496F-83CA-BCF84C16131E}
+	EndGlobalSection
+EndGlobal
